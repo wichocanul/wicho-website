@@ -1,0 +1,457 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.general{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+}
+
+.section1{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #06121f;
+    position: relative;
+    
+}
+
+.cont_letras{
+    width: 70%;
+    position: relative;
+    min-width: 304px;
+    height: auto;
+    margin: -20px auto 10px auto;
+    color: #fff;
+    text-align: center;
+}
+
+.p1{
+    font-family: 'Didact Gothic', sans-serif;
+    color: rgb(235, 232, 232);
+    margin-bottom: 20px;
+    font-size: 1.8vmax;
+    text-align: justify;
+}
+
+h1{
+    font-size: 5.7vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    color: #0FAADA;
+}
+
+.cont_ima{
+    width: 70%;
+    min-width: 290px;
+    height: auto;
+    margin: 20px auto 50px auto;
+    position: relative;
+    z-index: 1;
+}
+img{
+    width: 100%;
+}
+
+.p2{
+    font-size: 1em;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: justify;
+}
+
+.p3{
+    font-size: 1em;
+    text-align: left;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 7px;
+}
+
+a{
+    text-decoration: none;  
+}
+
+.p3 a span{
+    color: rgb(19, 201, 207);
+    background-color: rgba(53, 51, 51, 0.527);
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/*---------------SECTION DE HACIENDO QUE LAS COSAS SUCEDAN----------------------------------------*/
+
+#section2{
+    width: 100%;
+    height: auto;
+    /*background-color: #07886a;*/
+    background-color: rgb(131, 12, 22);
+    margin: 0 auto;
+    position: relative;
+}
+
+.cont_intro{
+    width: 100%;
+    height: auto;
+    margin: 4% auto 0 auto;
+    /*border-bottom: 3px double rgb(11, 70, 78);*/
+}
+
+.intro_text{
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+    text-align: center;
+    background-color: #06121f;
+    margin: 20px auto 20px auto;
+    border-radius: 5px;
+}
+
+.intro_text h1{
+    width: 100%;
+    padding: 10px;
+    font-size: 4vmax;
+    font-family: 'Courier New', Courier, monospace;
+    color: #EF534F;
+}
+
+.cont_pasos{
+    width: 78%;
+    height: auto;
+    margin: 5% auto 50px auto;
+}
+
+.cont_pasos .pasos{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.pasos img{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.pasos h2{
+    font-size: 3vh;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pasos p{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0 10px;
+    text-align: justify;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/*---------------SECTION GEMAS----------------------------------------*/
+
+#section3{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    background-image: url(../imgs/estrellas.png);
+    position: relative;
+}
+
+.cont_general{
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+}
+
+.gemas_texto{
+    width: 100%;
+    color: rgb(10, 178, 190); 
+}
+
+.gemas_texto h3{
+    width: 100%;
+    font-size: 3vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gemas_texto h2{
+    width: 100%;
+    font-size: 4.5vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+/*--------------PARTE1*/
+.parte1{
+    width: 100%;
+}
+.ima_gema img{
+    width: 100%;
+    height: auto;
+}
+
+/*--------------PARTE2*/
+
+.parte2{
+    width: 100%;
+    height: 400px;
+    margin-top: 60px;
+}
+
+.gemas{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.cont_imaa{
+    width: 9%;
+    height: 10%;
+    float: left;
+}
+
+.cont_imaa img{
+    min-width: 40px;
+    margin-top: 2px;
+}
+
+.contbarra{
+    width: 85%;
+    height: 45px;
+    margin: 3px 0;
+    background-color: rgb(4, 55, 75);
+    float: left;
+    margin-left: 4%;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 1px 2px rgba(9, 82, 114, 0.87);
+}
+
+.contbarra p{
+    font-size: 1em;
+    margin-top: 10px;
+    margin-right: 10%;
+    float: right;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.colorbarraverde{
+    width: 70%;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #00CC00;
+}
+
+.colorbarramorado{
+    width: 90%;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #B221A1;
+}
+
+.colorbarraazul{
+    width: 85%;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #0FAADA;
+}
+
+.colorbarrarojo{
+    width: 95%;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #FF0000;
+}
+
+.colorbarranaranja{
+    width: 80%;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #FF3300;
+}
+
+.colorbarraamarillo{
+    width: 60%;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #F7CE21;
+}
+
+/*------------------SECTION FINAL------------------*/
+
+#sectioncontact{
+    width: 100%;
+    height: auto;
+    background-color: #044249;
+    position: relative;
+}
+
+.cont_final{
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+}
+
+.finalp1{
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+.finalp1 h1{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+
+.finalpalabras p{
+    width: 100%;
+    text-align: justify;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.finalp2{
+    width: 100%;
+    padding: 0 20px; 
+}
+
+.contactos{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.cajacont img{
+    width: 35px;
+    float: left;
+
+}
+
+.cajacont h5{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.1em;
+    margin-left: 10px;
+    float: left;
+    color: rgb(7, 5, 6);
+}
+
+.cajacont h5:hover{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.1em;
+    margin-left: 10px;
+    float: left;
+    color: rgb(255, 250, 253);
+}
+
+.cajacont{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+/*FORMULARIO--------------*/
+
+.cont_formulario{
+    width: 100%;
+    background: #024e57;
+}
+
+.formulario{
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    background: #024e57;
+}
+
+.form1 ul{
+    width: 100%;
+    list-style: none;
+}
+
+.form1 li{
+    padding: 12px;
+    border-bottom: 1px solid #044249;
+    position: relative;
+}
+
+.form1 label{
+    color: rgb(232, 243, 241);
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form1 input{
+    height: 20px;
+    width: 220px;
+    padding: 3px 5px;
+}
+
+.form1 textarea{
+    width: 220px;
+    max-width: 220px;
+    min-width: 220px;
+    padding: 5px;
+}
+
+
+/*----------------------ESTILOS VISUALES DE LOS ELEMENTOS-----------------------*/
+
+.form1 input, .form1 textarea{
+    border: 1px solid #aaa;
+    /*box-shadow: 0px 0px 3px #ccc, 0px 5px 10px #eee inset;*/
+    border-radius: 2px;
+    color: #888;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 0.9em;
+}
+
+.form1 input:focus, .form1 textarea:focus{
+    background: #fff;
+    border: 1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right: 60px;
+}
+
+.form1 button{
+    margin-left: 140px;
+}
+
+button.submint{
+    padding: 9px 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.7em;
+    background-color: #1093a1;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+button.submint:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #042124;
+}
+
+
+.telefon{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
